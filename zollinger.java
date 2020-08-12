@@ -1,8 +1,5 @@
 public static String sendCmdlet(String cmdlet){
 
-        //verify the cmdlet has a space at the end, and that no space precedes the argument
-        cmdlet = cmdlet.trim() + " ";
-
         //send the command to the terminal - this page helped a lot: https://bit.ly/33PZjlB
         Process proc = null;        //define the variable outside the try-catch to avoid IDE complaints
         try {
